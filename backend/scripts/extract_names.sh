@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 echo -n>result.txt
 wrong="@amazon.com"
 while IFS="," read -r id lastname firstname email price country
