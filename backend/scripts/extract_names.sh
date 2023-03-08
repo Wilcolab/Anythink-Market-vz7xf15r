@@ -1,2 +1,5 @@
 #!/bin/bash
-echo "hello"
+while read line
+do
+   echo "Record is : $line"
+done < $1
