@@ -7,4 +7,4 @@ do
  then
   echo "$firstname $lastname" >> result.txt
  fi
-done < <(tail -n +2 $1)
+done << (tail -n +2 $1)
